@@ -2,12 +2,12 @@
 
 > This repo contains a simple Airflow setup for testing purposes.
 
-### Prerequisites
+### <u>Prerequisites</u>
 
 - Docker
 - Docker Compose
 
-### Issues
+### <u>Issues</u>
 
 - Volume mapping in `compose.yaml`: [`- ./dags:/opt/airflow/dags`](https://github.com/tbernacchi/dre-airflow/blob/0a7ab6dd9d52e783b730ca8c488a6b492eeef7f6/compose.yaml#L14)
 - Smooth function in DAG: [`def smooth():`](https://github.com/tbernacchi/dre-airflow/blob/main/dags/smooth.py#L12)
@@ -31,7 +31,7 @@ airflow-init-1  | psycopg2.OperationalError: FATAL:  password authentication fai
 
 -   user `airflow` in `compose.yaml`: [POSTGRES_USER: airflow](https://github.com/tbernacchi/dre-airflow/blob/5c5676014d51f185d35bbfca61e59b830905796e/compose.yaml#L31C1-L32C1)
 
-### Usage
+### <u>Usage</u>
 
 ```bash
 cat << EOF > .env
@@ -44,7 +44,8 @@ EOF
 
 docker compose up -d
 ```
-### Airflow UI
+
+### <u>Airflow UI</u>
 
 ```bash
 http://localhost:8080
@@ -57,7 +58,16 @@ airflow
 airflow
 ```
 
-### References:
+### <u> Architecture</u>
+
+<div align=>
+	<img align="center"  src=/.github/assets/img/arch-diag-basic.png>
+</div>
+
+### <u>References</u>
 - https://airflow.apache.org/docs/apache-airflow/stable/howto/docker-compose/index.html
 - https://airflow.apache.org/docs/apache-airflow/stable/core-concepts/dags.html
+- https://medium.com/@binayalenka/airflow-architecture-667f1cc613e8
+- https://airflow.apache.org/docs/apache-airflow/2.5.3/core-concepts/overview.html
+- https://airflow.apache.org/docs/apache-airflow/stable/core-concepts/overview.html#architecture-diagrams
 
