@@ -30,8 +30,8 @@ airflow
 ### Issues
 
 ```bash
-[`- ./dags:/opt/airflow/dags`](../../../blob/main/compose.yaml#L14)
-[def smooth():](../../blob/main/dags/smooth.py#L12)
+[`- ./dags:/opt/airflow/dags`](https://github.com/tbernacchi/dre-airflow/blob/main/compose.yaml#L14)
+[`def smooth():`](https://github.com/tbernacchi/dre-airflow/blob/main/dags/smooth.py#L12)
 ```
 
 References:
