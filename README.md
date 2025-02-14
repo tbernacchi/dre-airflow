@@ -29,7 +29,7 @@ airflow-init-1  |     conn = _connect(dsn, connection_factory=connection_factory
 airflow-init-1  | psycopg2.OperationalError: FATAL:  password authentication failed for user "airflow"
 ```
 
--   user `airflow` in `compose.yaml`: [POSTGRES_USER: airflow](https://github.com/tbernacchi/dre-airflow/blob/d6578a05fca3835700f69eaee43fa21b585c01e4/compose.yaml#L31C1-L32C1)
+-   user `airflow` in `compose.yaml`: [POSTGRES_USER: airflow](https://github.com/tbernacchi/dre-airflow/blob/5c5676014d51f185d35bbfca61e59b830905796e/compose.yaml#L31C1-L32C1)
 
 ### Usage
 
