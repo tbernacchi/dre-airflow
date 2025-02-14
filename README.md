@@ -26,7 +26,16 @@ login with:
 airflow
 airflow
 ```
- 
+
+### Issues
+
+```bash
+[- ./dags:/opt/airflow/dags](compose.yaml#L14)
+[def smooth():](dags/smooth.py#L12)
+```
+
 References:
 - https://airflow.apache.org/docs/apache-airflow/stable/howto/docker-compose/index.html
+- https://airflow.apache.org/docs/apache-airflow/stable/core-concepts/dags.html
+
 
