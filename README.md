@@ -2,19 +2,19 @@
 
 > This repo contains a simple Airflow setup for testing purposes.
 
-## Prerequisites
+### Prerequisites
 
 - Docker
 - Docker Compose
 
-## Usage
+### Usage
 
 ```bash
 export AIRFLOW_UID=$(id -u)
 docker compose up -d
 ```
 
-## Airflow UI
+### Airflow UI
 
 ```bash
 http://localhost:8080
