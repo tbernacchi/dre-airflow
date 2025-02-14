@@ -1,4 +1,4 @@
-# dre-test
+# dre-airflow
 
 > This repo contains a simple Airflow setup for testing purposes.
 
