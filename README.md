@@ -60,9 +60,24 @@ airflow
 
 ### <u> Architecture</u>
 
+An Airflow installation generally consists of the following components:
+
+* A scheduler, which handles both triggering scheduled workflows, and submitting Tasks to the executor to run.
+* An executor, which handles running tasks. In the default Airflow installation, this runs everything inside the scheduler, but most production-suitable executors actually push task execution out to workers.
+* A webserver, which presents a handy user interface to inspect, trigger and debug the behaviour of DAGs and tasks.
+* A folder of DAG files, read by the scheduler and executor (and any workers the executor has)
+* A metadata database, used by the scheduler, executor and webserver to store state.
+A metadata database, used by the scheduler, executor and webserver to store state.
+
 <div align=>
 	<img align="center"  src=/.github/assets/img/arch-diag-basic.png>
 </div>
+
+
+<div align=>
+	<img align="center"  src=/.github/assets/img/airflow.drawio.png>
+</div>
+
 
 ### <u>References</u>
 - https://airflow.apache.org/docs/apache-airflow/stable/howto/docker-compose/index.html
