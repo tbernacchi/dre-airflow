@@ -2,8 +2,7 @@
 
 > This repo contains a simple Airflow setup for testing purposes.
 
-### Prerequisites
-___
+## Prerequisites
 
 - Docker
 - Docker Compose
@@ -32,7 +31,7 @@ airflow-init-1  | psycopg2.OperationalError: FATAL:  password authentication fai
 
 -   user `airflow` in `compose.yaml`: [POSTGRES_USER: airflow](https://github.com/tbernacchi/dre-airflow/blob/5c5676014d51f185d35bbfca61e59b830905796e/compose.yaml#L31C1-L32C1)
 
-### <u>Usage</u>
+## Usage
 
 ```bash
 cat << EOF > .env
@@ -46,7 +45,7 @@ EOF
 docker compose up -d
 ```
 
-### <u>Airflow UI</u>
+## Airflow UI
 
 ```bash
 http://localhost:8080
@@ -59,7 +58,7 @@ airflow
 airflow
 ```
 
-### <u> Architecture</u>
+## Architecture
 
 An Airflow installation generally consists of the following components:
 
@@ -74,11 +73,11 @@ A metadata database, used by the scheduler, executor and webserver to store stat
 	<img align="center"  src=/.github/assets/img/arch-diag-basic.png>
 </div>
 
-### <u> AWS proposed architecture</u>
+## AWS proposed architecture
+
 <div align=>
 	<img align="center"  src=/.github/assets/img/airflow.drawio.png>
 </div>
-
 
 ### <u>References</u>
 - https://airflow.apache.org/docs/apache-airflow/stable/howto/docker-compose/index.html
@@ -86,4 +85,4 @@ A metadata database, used by the scheduler, executor and webserver to store stat
 - https://medium.com/@binayalenka/airflow-architecture-667f1cc613e8
 - https://airflow.apache.org/docs/apache-airflow/2.5.3/core-concepts/overview.html
 - https://airflow.apache.org/docs/apache-airflow/stable/core-concepts/overview.html#architecture-diagrams
-
+- https://airflow.apache.org/docs/apache-airflow/stable/installation/index.html
