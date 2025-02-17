@@ -3,7 +3,7 @@
 > This repo contains a simple Airflow setup for testing purposes.
 
 <div align=>
-	<img align="center"  src=/.github/assets/img/AirflowLogo.png>
+	<img align="center"  src=/.github/assets/img/AirflowLogo.png width="15.98" height="3.085">
 </div>
 
 ## Prerequisites
