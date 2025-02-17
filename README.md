@@ -2,12 +2,16 @@
 
 > This repo contains a simple Airflow setup for testing purposes.
 
+<div align=>
+	<img align="center"  src=/.github/assets/img/AirflowLogo.png>   
+</div>
+
 ## Prerequisites
 
 - Docker
 - Docker Compose
 
-### Issues
+## Issues
 
 - Volume mapping in `compose.yaml`: [`- ./dags:/opt/airflow/dags`](https://github.com/tbernacchi/dre-airflow/blob/0a7ab6dd9d52e783b730ca8c488a6b492eeef7f6/compose.yaml#L14)
 - Smooth function in DAG: [`def smooth():`](https://github.com/tbernacchi/dre-airflow/blob/main/dags/smooth.py#L12)
