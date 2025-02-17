@@ -73,7 +73,7 @@ A metadata database, used by the scheduler, executor and webserver to store stat
 	<img align="center"  src=/.github/assets/img/arch-diag-basic.png>
 </div>
 
-
+### <u> AWS proposed architecture</u>
 <div align=>
 	<img align="center"  src=/.github/assets/img/airflow.drawio.png>
 </div>
