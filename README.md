@@ -2,7 +2,7 @@
 
 > This repo contains a simple Airflow setup for testing purposes.
 
-### <u>Prerequisites</u>
+<u>### Prerequisites</u>
 
 - Docker
 - Docker Compose
